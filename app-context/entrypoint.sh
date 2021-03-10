@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 [[ -z "${APP_ROOT}" ]] && echo "set env APP_ROOT" && exit 2
 
 mkdir -p ${APP_ROOT}/proc

@@ -11,8 +11,8 @@ app-context-bash-ubuntu:
 
 .PHONY: app-context-zsh-ubuntu
 app-context-zsh-ubuntu:
-	kubectl dev build -f zsh-ubuntu.dockerfile -t docker.io/warmmetal/app-context-zsh-ubuntu:v0.1.0 app-context
+	kubectl dev build -f zsh-ubuntu.dockerfile -t docker.io/warmmetal/app-context-zsh-ubuntu:v0.2.0 app-context
 
 .PHONY: app-context-zsh-alpine
 app-context-zsh-alpine:
-	kubectl dev build -f zsh-alpine.dockerfile -t docker.io/warmmetal/app-context-zsh-alpine:v0.1.0 app-context
+	kubectl dev build -f zsh-alpine.dockerfile -t docker.io/warmmetal/app-context-zsh-alpine:v0.2.0 app-context
